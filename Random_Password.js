@@ -33,7 +33,7 @@ function generatePassword(len,lowercase,uppercase,specialchar,number){
 }
 
 function handleGeneratePassword() {
-    const pass_length = window.prompt("Enter your password length: ");
+    const pass_length = window.prompt("Enter your password length: (minimum length of password should be 3)");
     const lowercase = true;
     const uppercase = true;
     const specialchar = true;
